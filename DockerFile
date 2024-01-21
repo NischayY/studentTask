@@ -1,0 +1,4 @@
+FROM openjdk:18
+EXPOSE 8080
+ADD ./student-Task.jar student-Task.jar
+ENTRYPOINT["java","-jar","student-Task.jar"]
